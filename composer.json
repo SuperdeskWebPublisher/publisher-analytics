@@ -6,8 +6,8 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "php-amqplib/rabbitmq-bundle": "^1.10",
-        "swp/analytics-bundle": "^1.4@dev",
-        "swp/storage-bundle": "^1.4@dev",
+        "swp/analytics-bundle": "1.4.x-dev",
+        "swp/storage-bundle": "1.4.x-dev",
         "symfony/console": "4.2.*",
         "symfony/dotenv": "4.2.*",
         "symfony/flex": "^1.2",
@@ -30,12 +30,6 @@
             "App\\Tests\\": "tests/"
         }
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../web-publisher/src/SWP/*/*"
-        }
-    ],
     "replace": {
         "paragonie/random_compat": "2.*",
         "symfony/polyfill-ctype": "*",
