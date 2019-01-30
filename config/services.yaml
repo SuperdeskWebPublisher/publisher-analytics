@@ -1,0 +1,14 @@
+imports:
+    - { resource: "@SWPAnalyticsBundle/Resources/config/app/config.yml" }
+
+parameters:
+    swp.resources: []
+
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true # Automatically registers your services as commands, event subscribers, etc.
+
+    App\:
+        resource: '../src/*'
+        exclude: '../src/{DependencyInjection,Entity,Migrations,Tests,Kernel.php}'
