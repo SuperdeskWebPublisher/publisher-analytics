@@ -5,6 +5,7 @@
         "php": "^7.1.3",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "nelmio/cors-bundle": "^1.5@dev",
         "php-amqplib/rabbitmq-bundle": "^1.10",
         "swp/analytics-bundle": "1.4.x-dev",
         "swp/storage-bundle": "1.4.x-dev",
